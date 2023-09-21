@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+.id1{
+	background-color:red;
+	color:black;
+	height:100px;
+	width:100px;
+	order:2;
+}
+.id2{
+	background-color:blue;
+	color:black;
+	height:100px;
+	width:100px;
+	order:3;
+}
+.id3{
+	background-color:green;
+	color:black;
+	height:100px;
+	width:100px;
+	order:1;
+}
